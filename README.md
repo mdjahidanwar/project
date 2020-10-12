@@ -19,7 +19,10 @@ subprocess.call('docker build . -t eureka-server', shell = True) #creating docke
 ###run the following commands to push the docker image 
 
  docker push mdjahidanwar/eureka-server:7   ### here mdjahidanwar is my docker login and repo name 
- docker rm 148*******   ### to remove the container with container ID
- docker rmi 74d********* ### remove the docker image from local repo 
+ docker rm 148xxxxxxxx   ### to remove the container with container ID
+ docker rmi 74dxxxxxxxx ### remove the docker image from local repo 
  docker pull mdjahidanwar/eureka-server:7 ###pull the docker image 
-## use "docker run" with arguments to run the image
+
+
+
+use "docker run" with arguments to run the image
